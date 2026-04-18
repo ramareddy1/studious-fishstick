@@ -10,10 +10,11 @@ The goal is to highlight breakthroughs that are:
 
 ## 📂 Repository Structure
 
-weekly_insights/ YYYY-MM-DD/ 
-script.py         # Proof-of-concept implementation (if no GitHub repo exists) 
-summary.md        # Weekly markdown summary of the chosen insight 
-README.md         # Overview of the workflow
+```weekly_insights/ YYYY-MM-DD/```  
+├── ```script.py```   Proof-of-concept implementation (if no GitHub repo exists)      
+├── ```summary.md```   Weekly markdown summary of the chosen insight  
+├── ```README.md```   Overview of the workflow
+
 
 - Each week creates a new folder named with the date (`YYYY-MM-DD`).
 - If an implementation already exists on GitHub, links are included in `summary.md`.
@@ -25,6 +26,7 @@ README.md         # Overview of the workflow
 
 1. **Scan Sources**  
    Collect AI-related research papers, news articles, and publications from the past 7 days.
+
 
 2. **Select Insight**  
    Choose one item that is both impactful and realistically implementable.
